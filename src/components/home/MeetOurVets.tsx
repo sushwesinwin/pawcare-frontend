@@ -10,7 +10,7 @@ export default function MeetOurVets({ vets }: { vets: VetCardProps[] }) {
                 Meet Our Vets
             </h2>
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-10'>
-                {vets.map((vet) => (
+                {vets.slice(0, 3).map((vet) => (
                     <VetCard  
                         key={vet.id}    
                         id={vet.id}
