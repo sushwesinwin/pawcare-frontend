@@ -11,4 +11,12 @@ export interface LoginData {
 
 export interface AuthResponse {
     token: string,
+
+
+}
+
+// Typed error response from backend (e.g., { error: string })
+export interface ApiError {
+    error: string,
+
 }
