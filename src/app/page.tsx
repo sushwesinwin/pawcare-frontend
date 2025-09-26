@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Hero from '@/components/home/Hero'
 import MeetOurVets from '@/components/home/MeetOurVets'
 import Adoption from '@/components/home/Adoption'
@@ -122,3 +122,4 @@ export default function Homepage() {
   )
 }
   
+
