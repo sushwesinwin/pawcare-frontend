@@ -27,4 +27,4 @@ export async function login(data: LoginData): Promise<AuthResponse> {
         throw new Error(error.error || 'Login failed');
     }
     return res.json();
-}
+
